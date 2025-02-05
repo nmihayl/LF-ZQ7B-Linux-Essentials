@@ -13,18 +13,14 @@
 
     ```plaintext
     nick:x:1000:1000:nick:/home/nick:/bin/zsh
-    ```
 
-    Aufbau der Einträge:  
-
-    ```plaintext
-    [username]  [password]  [UID]   [GID]   [GECOS] [home]  [shell]
+    [username]:[password]:[UID]:[GID]:[GECOS]:[home]:[shell]
     ```
     </details>  
 
 ---
 
-1. Die Datei `script.sh` im aktuellen Verzeichnis hat den folgenden Inhalt:
+2. Die Datei `script.sh` im aktuellen Verzeichnis hat den folgenden Inhalt:
 
     ```bash
     #!/bin/bash
