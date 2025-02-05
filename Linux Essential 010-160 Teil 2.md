@@ -412,3 +412,63 @@
     </details>
 
 ---
+
+31. Welche der folgenden Aussagen über Linux Passwörter ist wahr?
+
+    <details>  
+    <summary><b>Antwort:</b></summary>  
+
+    * Passwörter werden nur in Hash-Form gespeichert
+
+    Die gehashten Passwörter werden in `/etc/shadow` gespeichert
+
+    </details>
+
+---
+
+32. Ein Verzeichnis enthält die folgenden drei Dateien:
+
+    ```
+    texts 1.txt
+    texts 2.txt
+    texts 3.csv
+    ```
+
+    Welcher Befehl kopiert die beiden Dateien, die auf `.txt` enden, in das `/tmp/` Verzeichnis?
+
+    <details>  
+    <summary><b>Antwort:</b></summary>  
+
+    * `cp *.txt /tmp/`
+
+    </details>
+
+---
+
+33. Aus welchen Dateien werden die Informationen für die folgende Ausgabe entnommen:
+    
+    `uid=1000 (bob) gid=1000 (bob) groups=1000 (bob), 10 (wheel), 150 (docker), 989 (wireshark), 1001 (libvirt)`
+
+    <details>  
+    <summary><b>Antwort:</b></summary>  
+
+    * `/etc/group` -  Die Datei enthält Informationen zu den Gruppen eines Systems, einschließlich der Gruppennamen und der Gruppen-IDs (GID).
+
+    * `/etc/passwd` - Die Datei enthält Benutzerinformationen, einschließlich der Benutzer-IDs (UID) und Gruppen-IDs (GID).
+
+    </details>
+
+---
+
+34. Welche Informationen können von `top` angezeigt werden?
+
+    <details>  
+    <summary><b>Antwort:</b></summary>  
+
+    * Laufende Prozesse, sortiert nach CPU- oder RAM-Verbrauch
+
+    `top` ist ein Echtzeit-Systemmonitor, der Informationen zu laufenden Prozessen anzeigt.
+
+    </details>
+
+---
