@@ -209,7 +209,7 @@
 
 ---
 
-14.  Welche Aussage über den `su` Befehl ist wahr?
+14. Welche Aussage über den `su` Befehl ist wahr?
 
     <details>  
     <summary><b>Antwort:</b></summary>  
